@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Crete Round"; 
+  font-family: "Poppins", sans-serif;
+  
+}
+.home-page {
+  background-image: url(image/mobile_back.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 3rem 2rem 3rem 2rem;
+  color: #FFFFFF;
+  background-color: #1C1A19;
+  background-position-x: right;
+  background-position-y: 220px;
+}
+
+.header{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #3C3A39;
+  color: #FFFFFF;
+}
+
+.nav_vector {
+  width: 25px;
+  height: 5px;
+  background-color: #FFFFFF;
+  margin: 5px 0;
+}
+
+
+h1{
+  font-family: "Crete Round"; 
+  color: #FF6B00;
+  font-size: 56px;
+}
+
+.pimary-text {
+  font-size: 20px;
+
+}
+.hp-icons{
+  margin-top:20px;
+  display: flex;
+  list-style: none;
+  gap: 15px ;
+
+}
