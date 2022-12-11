@@ -6,17 +6,33 @@
   padding: 0;
   font-family: "Crete Round"; 
   font-family: "Poppins", sans-serif;
-  
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --brand-base: #ff6b00;
+  --blue:#091E42;
+  --white:#FFFFFF;
+
+}
+
+body {
+  margin: 0;
 }
 .home-page {
   background-image: url(image/mobile_back.png);
   background-repeat: no-repeat;
   justify-content: center;
   padding: 3rem 2rem 3rem 2rem;
+  margin-bottom: 70px;
   color: #FFFFFF;
   background-color: #1C1A19;
   background-position-x: right;
   background-position-y: 220px;
+
 }
 
 .header{
@@ -37,18 +53,174 @@
 
 h1{
   font-family: "Crete Round"; 
-  color: #FF6B00;
+  color: var(--brand-base);
   font-size: 56px;
 }
 
-.pimary-text {
+.primary-text {
   font-size: 20px;
 
 }
 .hp-icons{
-  margin-top:20px;
+  margin-top:30px;
   display: flex;
   list-style: none;
   gap: 15px ;
+}
+.card_section{
+  display: grid;
+  text-align: center;
+  margin-bottom: 80px;
 
+}
+
+.section-title{
+  font-size: 35px; 
+}
+
+hr {
+height:2px;
+border-width:0;
+color:gray;
+background-color:gray;
+box-shadow: #3C3A39;
+margin:  25px 17px;
+}
+.card1 {
+margin-top: 20px;
+  
+}
+.card-container{
+  margin-left: 19px;
+  margin-right: 5px;
+  text-align: left;
+  color: var(--blue);
+}
+
+.card-title{
+  margin: 10px auto;
+  font-size: 27px;
+}
+.skills-items{
+display: flex;
+gap: 15px;
+margin: 20px auto;
+}
+
+.language {
+  border: 1.5px solid #8993a4 ;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 8px 10px;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.btn {
+  padding: 8px 10px;
+  background: var(--brand-base);;
+  color: var(--white);
+  font-size: 19px;
+}
+
+.card2 {
+  margin-top: 30px;
+}
+
+.card2 .card-container{
+  color: var(--white); 
+  display: block;
+  text-align: left;
+  background-image: url(image/card2.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  
+}
+.card2 .card-container .card-container-text {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.card2 .card-container .card-title{
+  padding-top: 80px;
+}
+
+.btn-card2{
+  padding: 10px 101.5px;
+  background: var(--brand-base);
+  font-size: 20px;
+  color: var(--white);
+}
+
+.about-me{
+  background-image: url(image/Frame1.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 3rem 2rem 3rem 2rem;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: #1C1A19;
+  background-position-x: right;
+  background-position-y: 280px;
+}
+
+.about-me-title{
+  font-family: "Crete Round"; 
+  color: var(--brand-base);
+  font-size: 56px;
+}
+
+.about-me-title-text{
+  margin: 20px auto;
+}
+
+.hr_about{
+  margin-top: 180px;
+}
+
+.knowledge{
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me span{
+  margin-right:10px ;
+}
+
+.know_skill li{
+  margin: 20px auto;
+}
+
+.contact-form{
+  background-color: #FFFFFF;
+  
+}
+
+.contact-form{
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  color: #172B4D;
+}
+.form-inputs{
+  margin-top:40px ;
+}
+input{
+  font-size: 16px;
+  margin-left: 20px;
+}
+  
+
+textarea{
+ background: #FBF8F7;
+}
+.f-icons{
+  margin-top:30px ;
+  display: flex;
+  list-style: none;
+  gap: 15px ;
+  text-align: center;
+  justify-content: center;
+}
+
+.submit {
+  margin-top: 20px;
 }
