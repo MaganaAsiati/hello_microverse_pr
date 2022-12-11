@@ -64,7 +64,8 @@ h1 {
 }
 
 .card_section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -87,8 +88,7 @@ hr {
 }
 
 .card-container {
-  margin-left: 19px;
-  margin-right: 5px;
+  margin: 0 10%;
   text-align: left;
   color: var(--blue);
 }
