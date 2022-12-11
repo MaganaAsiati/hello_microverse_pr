@@ -64,7 +64,7 @@ h1 {
 }
 
 .card_section {
-  display: flex;
+  display: grid;
   flex-direction: column;
   text-align: center;
   margin-bottom: 80px;
