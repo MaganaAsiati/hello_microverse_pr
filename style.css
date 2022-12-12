@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --brand-base: #ff6b00;
+  --blue: #091e42;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+.home-page {
+  background-image: url(image/mobile_back.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 3rem 2rem 3rem 2rem;
+  margin-bottom: 70px;
+  color: #fff;
+  background-color: #1c1a19;
+  background-position-x: right;
+  background-position-y: 220px;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  color: #fff;
+}
+
+.nav_vector {
+  width: 25px;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+h1 {
+  color: var(--brand-base);
+  font-size: 56px;
+}
+
+.primary-text {
+  font-size: 20px;
+}
+
+.hp-icons {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.card_section {
+  display: grid;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 35px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  box-shadow: #3c3a39;
+  margin: 25px 17px;
+}
+
+.card1 {
+  margin-top: 20px;
+}
+
+.card-container {
+  margin: 0 10%;
+  text-align: left;
+  color: var(--blue);
+}
+
+.card-title {
+  margin: 10px auto;
+  font-size: 27px;
+}
+
+.skills-items {
+  display: flex;
+  gap: 15px;
+  margin: 20px auto;
+}
+
+.language {
+  border: 1.5px solid #8993a4;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 8px 10px;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.btn {
+  padding: 8px 10px;
+  background: var(--brand-base);
+  color: var(--white);
+  font-size: 19px;
+}
+
+.c2 {
+  display: inline;
+}
+
+.card2 {
+  margin-top: 30px;
+}
+
+.card2 .card-container {
+  color: var(--white);
+  display: block;
+  text-align: left;
+  justify-content: center;
+  background-image: url(image/card2.png);
+  background-repeat: no-repeat;
+}
+
+.card2 .card-container .card-container-text {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.card2 .card-container .card-title {
+  padding-top: 80px;
+}
+
+.btn-card2 {
+  padding: 10px 112px;
+  background: var(--brand-base);
+  font-size: 16.7px;
+  color: var(--white);
+}
+
+.about-me {
+  background-image: url(image/Frame1.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 3rem 2rem 3rem 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #1c1a19;
+  background-position-x: right;
+  background-position-y: 280px;
+}
+
+.about-me-text {
+  padding-bottom: 4rem;
+}
+
+.about-me-title {
+  color: var(--brand-base);
+  font-size: 56px;
+}
+
+.about-me-title-text {
+  margin: 20px auto;
+}
+
+.hr_about {
+  margin-top: 180px;
+}
+
+.knowledge {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me span {
+  margin-right: 10px;
+}
+
+.know_skill li {
+  margin: 20px 0;
+}
+
+.contact-form {
+  background-color: #fff;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  color: #172b4d;
+}
+
+.form-inputs {
+  margin-top: 40px;
+}
+
+input {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+textarea {
+  background: #fbf8f7;
+}
+
+.f-icons {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hp-icons {
+    display: inline;
+    text-align: left;
+    top: 40%;
+    left: 3.1rem;
+    position: absolute;
+  }
+
+  .hp-icons li {
+    margin-top: 15px;
+  }
+
+  .home-page-text {
+    margin: 8% 40% 8% 7%;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  .primary-text {
+    font-size: 32px;
+  }
+
+  .home-page {
+    background-image: url(image/group1.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: #fff;
+    background-color: #1c1a19;
+    background-position-x: right;
+    background-position-y: -60px;
+  }
+
+  .card1 {
+    display: flex;
+    margin: 5%;
+  }
+
+  .card1-img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .card-title {
+    margin: 10px auto;
+    font-size: 40px;
+  }
+
+  .s-c-title {
+    display: flex;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .title-head {
+    display: flex;
+    margin: 5%;
+  }
+
+  .title-head h2 {
+    white-space: nowrap;
+    align-self: center;
+  }
+
+  .c2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .btn-card2 {
+    padding: 10px 101.5px;
+    background: var(--brand-base);
+    font-size: 20px;
+    color: var(--white);
+  }
+
+  .card2 .card-container .card-title {
+    padding-top: 80px;
+    font-size: 20px;
+  }
+
+  .about-me {
+    background-image: url(image/group2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: #fff;
+    background-color: #1c1a19;
+    background-position-x: right;
+    background-position-y: 80px;
+  }
+
+  .about-me-title-text {
+    margin-bottom: 60px;
+  }
+
+  .about-me-text {
+    margin: 8% 50% 8% 7%;
+  }
+
+  .knowledge {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto 10%;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .contact-form h4 {
+    margin: 8% 30% 8% 7%;
+  }
+
+  .textarea {
+    max-width: 100%;
+  }
+}
